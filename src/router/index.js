@@ -3,10 +3,12 @@
 *Original Author: Vue 3 CLI / Michelle Petit                *
 *Date Created: 10/27/2020                                   *
 *Version: 1                                                 *
-*Date Last Modified: 10/27/2020                             *
+*Date Last Modified: 10/29/2020                             *
 *Modified by: Michelle Petit                                *
 *Modification log: added flowerbox and routing JS           *
 *(I really liked the youtube tutorial by The Earth is Square)*
+* initialized new product in node.js using 'vue ui' and added*
+*the router as one of the presets                            *
 ***
 ******************************************************************** */
 

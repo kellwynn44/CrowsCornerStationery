@@ -3,12 +3,13 @@
 #Original Author: Michelle Petit                                 #
 #Date Created: 10/25/2020                                        #
 #Version: 1                                                      #
-#Date Last Modified:10/27/2020                                   #
+#Date Last Modified:10/29/2020                                   #
 #Modified by: Michelle Petit                                     #
 #Modification log: added flowerbox, template, script, and style  #
 #                     content                                    #
 #                  added Header.vue and Footer.vue info          #
 #              added router-view info, worked on troubleshooting #
+#    initialized new project folder/template using Vue ui        #
  --
 ------------------------------------------------------------------------------------------------------------------>
 

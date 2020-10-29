@@ -7,18 +7,19 @@
 #Modified by: Michelle Petit                                     #
 #Modification log: added flowerbox, template HTML, script, and   #
 #                  styles (copied from planners.html)            #
- --
+#    initialized new project folder/template using Vue ui        #
+--
 ------------------------------------------------------------------------------------------------------------------>
 
 <template>
   <div class="planners">
-      <div class="jumbotron">
+    <div class="jumbotron">
         <div class="container text-center">
-          <h1 class="small">How I Decorate And Use My Planners</h1>      
+          <h1 class="small">How I Decorate And Use My Planners</h1>
         </div>
       </div>
 
-    <div class="container-fluid bg-3 text-center">    
+    <div class="container-fluid bg-3 text-center">
         <div class="row">
           <div class="col-sm-2"></div>
           <div class="col-sm-4">
@@ -26,25 +27,32 @@
             <h3>Pretty Yet Functional Planning</h3>
             <br>
             <p class="text-left">
-                I love to keep things simple! I created this to-do list using grid paper, 
+                I love to keep things simple! I created this to-do list using grid paper,
                 two stickers, my Mommy Lhey alphabet stamps, and a pink wide tip alcohol marker.
-            </p>  
+            </p>
           </div>
-          <div class="col-sm-4"> 
+          <div class="col-sm-4">
             <img src="../assets/mini_hp.jpg" class="img-thumbnail" style="text-align: center;" alt="mini Happy Planner with sticker book">
             <h3>Stickers > My Drawing Skills</h3>
             <p class="text-left">
-                I tend to use a lot of stickers in my planners and bullet journal. I haven’t drawn since my college years, so my artistic skills are in desperate need of practice. 
+                I tend to use a lot of stickers in my planners and bullet journal. I haven’t drawn since my college years, so my artistic skills are in desperate need of practice.
                 Lucky for me there are many stickers options readily available! From hand-drawn, unique designs found on Etsy and individual shop websites to mass produced sticker books
                  designed specifically for use in planners, I can always find a sticker to fit the theme I’ve chosen.
             </p>
           </div>
         </div>
-      </div> 
+      </div>
     <br>
     <br>
   </div>
 </template>
+
+<!--  A script tag was not included on the boilerplate About.vue
+<script>
+export default {
+    name: 'Planners'
+}
+</script> -->
 
 <style scoped>
          /* Change page header defaults */

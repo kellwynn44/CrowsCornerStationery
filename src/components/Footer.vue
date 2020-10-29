@@ -3,20 +3,21 @@
 #Original Author: Michelle Petit                                 #
 #Date Created: 10/25/2020                                        #
 #Version: 1                                                      #
-#Date Last Modified:10/27/2020                                   #
+#Date Last Modified:10/29/2020                                   #
 #Modified by: Michelle Petit                                     #
 #Modification log: added flowerbox, template HTML, script, and   #
 #                  styles (footer template from Bootstrap)       #
+#    initialized new project folder/template using Vue ui        #
  --
 ------------------------------------------------------------------------------------------------------------------>
 
 <template>
   <footer class="page-footer">
     <!-- Footer Links -->
-    <div class="container-fluid text-center text-md-left">  
+    <div class="container-fluid text-center text-md-left">
       <!-- Grid row -->
-      <hr class="clearfix w-100 d-md-none pb-3"> 
-      <div class="row"> 
+      <hr class="clearfix w-100 d-md-none pb-3">
+      <div class="row">
         <!-- Empty grid column -->
         <div class="col-md-1"></div>
         <!-- Grid column -->
@@ -33,11 +34,11 @@
           <p>
             <a href="https://www.etsy.com/shop/CrowCornerStationery?ref=ss_profile" target="_blank"></a>
           </p>
-        </div>        
+        </div>
         <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3 text-left"> 
+        <div class="col-md-3 mb-md-0 mb-3 text-left">
           <!-- Links -->
-          <h5 class="text-uppercase">Contact Me</h5> 
+          <h5 class="text-uppercase">Contact Me</h5>
           <br>
           <ul class="list-unstyled">
             <li>
@@ -52,22 +53,22 @@
           </ul>
         </div>
         <!-- Grid column -->
-        <div class="col-md-5 mb-md-0 mb-3"> 
+        <div class="col-md-5 mb-md-0 mb-3">
           <!-- NEEDS CONTENT? -->
-        </div>    
+        </div>
       </div>
     <!-- Copyright -->
-    <hr class="clearfix w-100 d-md-none pb-3"> 
+    <hr class="clearfix w-100 d-md-none pb-3">
     <div class="footer-copyright text-center">© 2020 Copyright:
       CrowsCornerStationery
     </div>
-   </div> 
+   </div>
   </footer>
 </template>
 
 <script>
 export default {
-  name: 'Footer',
+  name: 'Footer'
 }
 </script>
 
