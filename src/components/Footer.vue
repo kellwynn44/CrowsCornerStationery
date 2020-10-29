@@ -1,3 +1,15 @@
+<!----------------------------------------------------------------------------------------------------------------
+--
+#Original Author: Michelle Petit                                 #
+#Date Created: 10/25/2020                                        #
+#Version: 1                                                      #
+#Date Last Modified:10/27/2020                                   #
+#Modified by: Michelle Petit                                     #
+#Modification log: added flowerbox, template HTML, script, and   #
+#                  styles (footer template from Bootstrap)       #
+ --
+------------------------------------------------------------------------------------------------------------------>
+
 <template>
   <footer class="page-footer">
     <!-- Footer Links -->
@@ -59,9 +71,8 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-      /* Add a gray background color and some padding to the footer */
+      /* Add a black background color and some padding to the footer */
       footer {
         background-color: rgb(12, 12, 12);
         color: white;
@@ -73,5 +84,8 @@ export default {
       }
       a i:hover, footer a:hover {
         color:darkred;
+      }
+      a {
+        margin-left: 1rem;
       }
 </style>

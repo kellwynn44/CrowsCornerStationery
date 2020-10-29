@@ -1,9 +1,16 @@
+/*********************************************************************
+***
+*Original Author: Vue 3 CLI / Michelle Petit                *
+*Date Created: 10/27/2020                                   *
+*Version: 1                                                 *
+*Date Last Modified: 10/27/2020                             *
+*Modified by: Michelle Petit                                *
+*Modification log: added flowerbox and routing JS           *
+*(I really liked the youtube tutorial by The Earth is Square)*
+***
+******************************************************************** */
+
 import {createWebHistory, createRouter} from 'vue-router'
-/*const Home = import('./views/Home.vue')
-const Books = import('./views/Books.vue')
-const Journals = import('./views/Journals.vue')
-const Planners = import('./views/Planners.vue')
-const Recipes = import('./views/Recipes.vue')*/
 import Home from './views/Home.vue'
 import Books from './views/Books.vue'
 import Journals from './views/Journals.vue'
