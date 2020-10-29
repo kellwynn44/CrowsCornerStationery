@@ -12,7 +12,7 @@
 
 <template>
 
-  <main>
+  <div class="books">
         <div class="jumbotron">
       <div class="container text-center">
         <h1 class="small">She read books as one would breathe air, to fill up and live. -Annie Dillard</h1>      
@@ -23,7 +23,7 @@
       <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-4">
-          <img src="assets/beauty.jpg" class="img-thumbnail" style="text-align: center;" alt="Beauty by Robin McKinley">
+          <img src="../assets/beauty.jpg" class="img-thumbnail" style="text-align: center;" alt="Beauty by Robin McKinley">
           <h3>My Favorite Author</h3>
           <br>
           <p class="text-left">
@@ -48,15 +48,9 @@
     </div>
     <br>
     <br>
-  </main>
+  </div>
 
 </template>
-
-<script>
-export default {
-    name: 'Books'
-}
-</script>
 
 <style scoped>
          /* Change page header defaults */

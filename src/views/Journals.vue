@@ -11,7 +11,7 @@
 ------------------------------------------------------------------------------------------------------------------>
 
 <template>
-    <main>
+    <div class="journals">
         <div class="jumbotron">
       <div class="container text-center">
         <h1 class="small">How I Decorate And Use My Journals</h1>      
@@ -22,7 +22,7 @@
       <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-4">
-          <img src="assets/my_bujo.jpg" class="img-thumbnail" style="text-align: center;" alt="decorated to-do list">
+          <img src="../assets/my_bujo.jpg" class="img-thumbnail" style="text-align: center;" alt="decorated to-do list">
           <h3>My Bujo</h3>
           <br>
           <p class="text-left">
@@ -35,7 +35,7 @@
           </p>  
         </div>
         <div class="col-sm-4"> 
-          <img src="assets/homeschool_bujo.jpg" class="img-thumbnail" style="text-align: center;" alt="mini Happy Planner with sticker book">
+          <img src="../assets/homeschool_bujo.jpg" class="img-thumbnail" style="text-align: center;" alt="mini Happy Planner with sticker book">
           <h3>
             My Homeschool Bujo
           </h3>
@@ -58,14 +58,8 @@
     </div>
   <br>
   <br>
-    </main>
+    </div>
 </template>
-
-<script>
-export default {
-    name: 'Journals'
-}
-</script>
 
 <style scoped>
          /* Change page header defaults */
@@ -76,5 +70,8 @@ export default {
       h1.small {
         font-family: 'Artifika', serif;
         font-size: 5rem;
+      }
+      img {
+        max-width: 300px;
       }
 </style>

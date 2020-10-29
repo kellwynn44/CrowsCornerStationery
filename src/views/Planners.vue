@@ -11,7 +11,7 @@
 ------------------------------------------------------------------------------------------------------------------>
 
 <template>
-  <main>
+  <div class="planners">
       <div class="jumbotron">
         <div class="container text-center">
           <h1 class="small">How I Decorate And Use My Planners</h1>      
@@ -22,7 +22,7 @@
         <div class="row">
           <div class="col-sm-2"></div>
           <div class="col-sm-4">
-            <img src="assets/pretty_to_do_list.jpg" class="img-thumbnail" style="text-align: center;" alt="decorated to-do list">
+            <img src="../assets/pretty_to_do_list.jpg" class="img-thumbnail" style="text-align: center;" alt="decorated to-do list">
             <h3>Pretty Yet Functional Planning</h3>
             <br>
             <p class="text-left">
@@ -31,7 +31,7 @@
             </p>  
           </div>
           <div class="col-sm-4"> 
-            <img src="assets/mini_hp.jpg" class="img-thumbnail" style="text-align: center;" alt="mini Happy Planner with sticker book">
+            <img src="../assets/mini_hp.jpg" class="img-thumbnail" style="text-align: center;" alt="mini Happy Planner with sticker book">
             <h3>Stickers > My Drawing Skills</h3>
             <p class="text-left">
                 I tend to use a lot of stickers in my planners and bullet journal. I haven’t drawn since my college years, so my artistic skills are in desperate need of practice. 
@@ -43,14 +43,8 @@
       </div> 
     <br>
     <br>
-  </main>
+  </div>
 </template>
-
-<script>
-export default {
-    name: 'Planners'
-}
-</script>
 
 <style scoped>
          /* Change page header defaults */

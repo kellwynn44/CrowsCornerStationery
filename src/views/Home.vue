@@ -11,7 +11,7 @@
 ------------------------------------------------------------------------------------------------------------------>
 
 <template>
-  <main>
+  <div class="home">
     <div class="jumbotron">
       <div class="container text-center">
         <h1 class="small">Welcome to my corner of the Internet!</h1>      
@@ -23,7 +23,7 @@
       <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-4">
-          <img src="assets/me.png" class="img-thumbnail" style="text-align: center;" alt="a portrait of me">
+          <img src="../assets/me.png" class="img-thumbnail" style="text-align: center;" alt="a portrait of me">
           <h3>Hi, I'm Michelle!</h3><br>
           <p class="text-left">I love making my planners and bullet journals look cute, reading and collecting books, eating yummy food, watching movies and fun animated 
             series like Gravity Falls and The Last Airbender, playing Animal Crossing, and of course hanging out with my family!
@@ -33,7 +33,7 @@
           </p>  
         </div>
         <div class="col-sm-4"> 
-          <img src="assets/bookmark.jpg" class="img-thumbnail" style="text-align: center;" alt="an illustrated book page with a velvet bookmark">
+          <img src="../assets/bookmark.jpg" class="img-thumbnail" style="text-align: center;" alt="an illustrated book page with a velvet bookmark">
           <h3>Join Me for Fun Tutorials, Yummy Recipes & Planner Inspo</h3>
           <p class="text-left">
             I’ll be sharing all of the fun things I’ve learned about making and decorating planners, including how I make the accessories I sell in my 
@@ -50,7 +50,7 @@
       <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-4">
-          <img src="assets/crow_clips.jpg" class="img-thumbnail" style="text-align: center;" alt="three crow paperclips">
+          <img src="../assets/crow_clips.jpg" class="img-thumbnail" style="text-align: center;" alt="three crow paperclips">
           <h3>How CrowsCornerStationery Started</h3>
           <p class="text-left">
             I discovered, and quickly fell in love with, Instagram’s planning community in 2015. I learned how to decorate my own planners by 
@@ -61,7 +61,7 @@
           </p>
         </div>
         <div class="col-sm-4"> 
-          <img src="assets/devo.jpg" class="img-thumbnail" style="text-align: center;" alt="my whippet named Devo">
+          <img src="../assets/devo.jpg" class="img-thumbnail" style="text-align: center;" alt="my whippet named Devo">
           <h3>Meet The Fam</h3>
           <p class="text-left">
             I’m a lucky girl, because I have two teenagers and four furbabies who call me Mom! My son Leo is 17 and definitely a child of the digital era. 
@@ -74,7 +74,7 @@
       </div>
     </div>
     <br><br><br><br>
-  </main>
+  </div>
 </template>
 
 <script>
@@ -92,5 +92,8 @@ export default {
       h1.small {
         font-family: 'Artifika', serif;
         font-size: 5rem;
+      }
+      img {
+        margin-bottom: 2rem;
       }
 </style>

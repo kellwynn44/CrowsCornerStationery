@@ -11,7 +11,7 @@
 ------------------------------------------------------------------------------------------------------------------>
 
 <template>
-    <main>
+    <div class="recipes">
         <div class="jumbotron">
       <div class="container text-center">
         <h1 class="small">I Think Eating is the Best Part of Cooking -Me</h1>      
@@ -22,7 +22,7 @@
       <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-4">
-          <img src="assets/graham_cracker_choco_chips.png" class="img-thumbnail" style="text-align: center;" alt="cookies on a baking sheet">
+          <img src="../assets/graham_cracker_choco_chips.png" class="img-thumbnail" style="text-align: center;" alt="cookies on a baking sheet">
           <h3>Graham Cracker Chocolate Chip Cookies</h3>
           <br>
           <p class="text-left">
@@ -49,7 +49,7 @@
           </p>  
         </div>
         <div class="col-sm-4"> 
-          <img src="assets/french_bread.jpg" class="img-thumbnail" style="text-align: center;" alt="loaf of freshly baked french bread">
+          <img src="../assets/french_bread.jpg" class="img-thumbnail" style="text-align: center;" alt="loaf of freshly baked french bread">
           <h3>Homemade French Bread</h3>
           <p class="text-left">
             Ingredients
@@ -75,14 +75,8 @@
     </div>
     <br>
     <br>
-  </main>
+  </div>
 </template>
-
-<script>
-export default {
-    name: 'Recipes'
-}
-</script>
 
 <style scoped>
          /* Change page header defaults */
